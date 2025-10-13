@@ -4,8 +4,14 @@ title = "吃鱼吃米的博客"
 theme = "PaperMod"
 
 [params]
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowCodeCopyButtons = true
-  defaultTheme = "auto" # "auto", "light", "dark"    
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+defaultTheme = "auto"      # "auto", "light", "dark"    
+
+[params.assets]
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+apple_touch_icon = "/apple-touch-icon.png"
