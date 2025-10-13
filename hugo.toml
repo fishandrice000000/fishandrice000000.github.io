@@ -9,26 +9,45 @@ timeZone = "Asia/Shanghai"
   home = ["HTML", "RSS", "JSON"]
 
 [params]
-ShowReadingTime = true
-ShowShareButtons = true
-ShowPostNavLinks = true
-ShowCodeCopyButtons = true
-defaultTheme = "auto"      # "auto", "light", "dark"    
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto" 
 
-[params.assets]
-favicon = "/favicon.ico"
-favicon16x16 = "/favicon-16x16.png"
-favicon32x32 = "/favicon-32x32.png"
-apple_touch_icon = "/apple-touch-icon.png"
+  [params.profileMode]
+    enabled = true
+    title = "吃鱼吃米🍓" 
+    subtitle = "一般通过代码低手"
+    imageUrl = "/avatar.png"
+    imageWidth = 120
+    imageHeight = 120
+    
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/fishandrice000000"
+
+  [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon-16x16.png"
+    favicon32x32 = "/favicon-32x32.png"
+    apple_touch_icon = "/apple-touch-icon.png"
+
+[[menu.main]]
+  identifier = "archives"
+  name = "Blogs"
+  url = "/blogs/"
+  weight = 10 
 
 [[menu.main]]
   identifier = "search"
-  name = "搜索"
+  name = "Search"
   url = "/search/"
-  weight = 10 # weight 决定了菜单项的顺序
+  weight = 20 
 
 [[menu.main]]
   identifier = "tags"
-  name = "标签"
+  name = "Tags"
   url = "/tags/"
-  weight = 20
+  weight = 30
+
