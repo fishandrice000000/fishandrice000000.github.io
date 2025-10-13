@@ -1,7 +1,10 @@
 baseURL = "https://fishandrice000000.github.io/"
 languageCode = "zh-cn"
-title = "吃鱼吃米的博客"
+title = "吃鱼吃米ChMi🍓的博客"
 theme = "PaperMod"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [params]
 ShowReadingTime = true
@@ -15,3 +18,15 @@ favicon = "/favicon.ico"
 favicon16x16 = "/favicon-16x16.png"
 favicon32x32 = "/favicon-32x32.png"
 apple_touch_icon = "/apple-touch-icon.png"
+
+[[menu.main]]
+  identifier = "search"
+  name = "搜索"
+  url = "/search/"
+  weight = 10 # weight 决定了菜单项的顺序
+
+[[menu.main]]
+  identifier = "tags"
+  name = "标签"
+  url = "/tags/"
+  weight = 20
