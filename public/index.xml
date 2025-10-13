@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>吃鱼吃米的博客</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 吃鱼吃米的博客</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 13 Oct 2025 19:40:01 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown语法</title>
+      <link>http://localhost:1313/posts/markdown%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Mon, 13 Oct 2025 19:40:01 +0800</pubDate>
+      <guid>http://localhost:1313/posts/markdown%E8%AF%AD%E6%B3%95/</guid>
+      <description>&lt;h2 id=&#34;1-标题&#34;&gt;1. 标题&lt;/h2&gt;
+&lt;p&gt;使用 &lt;code&gt;#&lt;/code&gt; 表示标题，&lt;code&gt;#&lt;/code&gt; 的数量决定标题的层级（1~6级）。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 一级标题
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## 二级标题
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;### 三级标题
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#### 四级标题
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;##### 五级标题
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;###### 六级标题
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;效果：&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;一级标题&#34;&gt;一级标题&lt;/h1&gt;
+&lt;h2 id=&#34;二级标题&#34;&gt;二级标题&lt;/h2&gt;
+&lt;h3 id=&#34;三级标题&#34;&gt;三级标题&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-段落与换行&#34;&gt;2. 段落与换行&lt;/h2&gt;
+&lt;p&gt;直接写文本即可构成段落。&lt;br&gt;
+在行末加两个空格可实现&lt;strong&gt;换行&lt;/strong&gt;。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;这是第一行文本。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;这是第二行文本。  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;换行后的一段。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;效果：&lt;/strong&gt;
+这是第一行文本。&lt;br&gt;
+这是第二行文本。&lt;br&gt;
+换行后的一段。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-强调&#34;&gt;3. 强调&lt;/h2&gt;
+&lt;p&gt;使用 &lt;code&gt;*&lt;/code&gt; 或 &lt;code&gt;_&lt;/code&gt; 表示斜体，使用 &lt;code&gt;**&lt;/code&gt; 或 &lt;code&gt;__&lt;/code&gt; 表示加粗，使用 &lt;code&gt;~~&lt;/code&gt; 表示删除线。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;*斜体* 或 &lt;span style=&#34;font-style:italic&#34;&gt;_斜体_&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;**加粗**&lt;/span&gt; 或 &lt;span style=&#34;font-weight:bold&#34;&gt;__加粗__&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;~~删除线~~&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;效果：&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;斜体&lt;/em&gt; 或 &lt;em&gt;斜体&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;加粗&lt;/strong&gt; 或 &lt;strong&gt;加粗&lt;/strong&gt;&lt;br&gt;
+&lt;del&gt;删除线&lt;/del&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;4-列表&#34;&gt;4. 列表&lt;/h2&gt;
+&lt;h3 id=&#34;无序列表&#34;&gt;无序列表&lt;/h3&gt;
+&lt;p&gt;使用 &lt;code&gt;-&lt;/code&gt;、&lt;code&gt;*&lt;/code&gt; 或 &lt;code&gt;+&lt;/code&gt; 表示无序列表。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;-&lt;/span&gt; 项目 1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;-&lt;/span&gt; 项目 2
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;-&lt;/span&gt; 子项目 2.1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;-&lt;/span&gt; 子项目 2.2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;效果：&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>开场白</title>
+      <link>http://localhost:1313/posts/%E5%BC%80%E5%9C%BA%E7%99%BD/</link>
+      <pubDate>Mon, 13 Oct 2025 19:21:46 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E5%BC%80%E5%9C%BA%E7%99%BD/</guid>
+      <description>&lt;p&gt;这里是&lt;strong&gt;吃鱼吃米ChMi&lt;/strong&gt;🍓的博客&lt;/p&gt;
+&lt;p&gt;以后他会在这里记录一些学习编程的内容以及过程&lt;/p&gt;
+&lt;p&gt;还有可能会有发牢骚之类的东西&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
