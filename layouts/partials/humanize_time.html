@@ -1,0 +1,11 @@
+{{ $seconds := sub now.Unix .Unix }}
+{{ $minutes := div $seconds 60 }}
+{{ $hours := div $minutes 60 }}
+
+{{ if lt $seconds 60 }}
+    刚刚
+{{ else if lt $minutes 60 }}
+    {{ $minutes }} 分钟前
+{{ else }}
+    {{ $hours }} 小时前
+{{ end }}

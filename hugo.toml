@@ -2,6 +2,8 @@ baseURL = "https://fishandrice000000.github.io/"
 languageCode = "zh-cn"
 title = "吃鱼吃米ChMi🍓的博客"
 theme = "PaperMod"
+enableGitInfo = true
+timeZone = "Asia/Shanghai"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

@@ -1,0 +1,30 @@
+<!-- isToday a function to check if the date is today -->
+{{ $isToday := eq (.Date.Format "2006-01-02") (now.Format "2006-01-02") }}
+{{ $isLastmodToday := eq (.Lastmod.Format "2006-01-02") (now.Format "2006-01-02") }}
+
+<!-- PostDate -->
+{{- if not .Date.IsZero -}}
+<span class="post-date">
+    发布于
+    {{- if $isToday -}}
+        {{- partial "humanize_time.html" .Date -}}
+    {{- else -}}
+        {{- .Date.Format "2006-01-02 15:04:05" -}}
+    {{- end -}}
+</span>
+{{- end -}}
+
+<!-- Lastmod -->
+{{- if (and .Site.Params.ShowPostLastmod .Lastmod) -}}
+{{- if ne .Date .Lastmod -}}
+<span class="post-lastmod">
+    · 修改于
+    {{- if $isLastmodToday -}}
+        {{- partial "humanize_time.html" .Lastmod -}}
+    {{- else -}}
+        {{- .Lastmod.Format "2006-01-02 15:04:05" -}}
+    {{- end -}}
+</span>
+{{- end -}}
+{{- end -}}
+

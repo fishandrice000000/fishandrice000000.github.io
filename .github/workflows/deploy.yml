@@ -23,6 +23,8 @@ jobs:
   # 构建任务
   build:
     runs-on: ubuntu-latest
+    env: 
+      TZ: Asia/Shanghai
     steps:
       - name: Checkout
         uses: actions/checkout@v4
