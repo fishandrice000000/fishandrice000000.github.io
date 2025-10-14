@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Markdown语法 | 吃鱼吃米ChMi🍓的博客</title>
+<title>Markdown语法 | 吃鱼吃米ChMi🍓</title>
 <meta name="keywords" content="Markdown">
 <meta name="description" content="1. 标题
 使用 # 表示标题，# 的数量决定标题的层级（1~6级）。
@@ -104,19 +104,22 @@
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
     } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
+        document.body.classList.add('light');
     } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
-
 </script>
 
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="吃鱼吃米ChMi🍓的博客 (Alt + H)">吃鱼吃米ChMi🍓的博客</a>
+            <a href="http://localhost:1313/" accesskey="h" title="吃鱼吃米ChMi🍓 (Alt + H)" class="logo-link">
+                
+                    <img src="http://localhost:1313/avatar.png" alt="logo" class="logo-avatar">
+                <span class="logo-text">吃鱼吃米ChMi🍓</span>
+            </a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -141,22 +144,44 @@
         <ul id="menu">
             <li>
                 <a href="http://localhost:1313/blogs/" title="Blogs">
-                    <span>Blogs</span>
+                    <span class="">
+                        Blogs
+                    </span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
-                    <span>Search</span>
+                <a href="http://localhost:1313/search/" title="Search">
+                    <span class="">
+                        Search
+                    </span>
                 </a>
             </li>
             <li>
                 <a href="http://localhost:1313/tags/" title="Tags">
-                    <span>Tags</span>
+                    <span class="">
+                        Tags
+                    </span>
                 </a>
             </li>
         </ul>
     </nav>
 </header>
+<style>
+ 
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+.logo-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+</style>
 <main class="main">
 
 <article class="post-single">
@@ -170,14 +195,7 @@
 
 
 <span class="post-date">
-    发布于
-
-
-
-
-    3 小时前
-
-</span>
+    发布于2025-10-13 19:40:01</span>
 
 </div>
   </header> 
@@ -434,7 +452,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">吃鱼吃米ChMi🍓的博客</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">吃鱼吃米ChMi🍓</a></span> · 
 
     <span>
         Powered by

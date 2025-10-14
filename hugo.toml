@@ -1,6 +1,6 @@
 baseURL = "https://fishandrice000000.github.io/"
 languageCode = "zh-cn"
-title = "吃鱼吃米ChMi🍓的博客"
+title = "吃鱼吃米ChMi🍓"
 theme = "PaperMod"
 enableGitInfo = true
 timeZone = "Asia/Shanghai"
@@ -17,7 +17,7 @@ timeZone = "Asia/Shanghai"
 
   [params.profileMode]
     enabled = true
-    title = "吃鱼吃米🍓" 
+    title = "吃鱼吃米ChMi🍓" 
     subtitle = "一般通过代码低手"
     imageUrl = "/avatar.png"
     imageWidth = 120
