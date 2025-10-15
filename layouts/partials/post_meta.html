@@ -6,11 +6,7 @@
 {{- if not .Date.IsZero -}}
 <span class="post-date">
     发布于
-    {{- if $isToday -}}
-        {{- partial "humanize_time.html" .Date -}}
-    {{- else -}}
-        {{- .Date.Format "2006-01-02 15:04:05" -}}
-    {{- end -}}
+    {{- .Date.Format "2006-01-02 15:04:05" -}}
 </span>
 {{- end -}}
 

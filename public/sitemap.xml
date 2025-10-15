@@ -2,20 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-10-14T15:14:13+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-14T15:14:13+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2025-10-14T15:14:13+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/git%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2025-10-14T15:12:58+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/markdown/</loc>
     <lastmod>2025-10-13T19:40:01+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/markdown%E8%AF%AD%E6%B3%95/</loc>
     <lastmod>2025-10-13T19:40:01+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-13T19:40:01+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-10-13T19:40:01+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-10-13T23:05:26+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/%E5%BC%80%E5%9C%BA%E7%99%BD/</loc>
     <lastmod>2025-10-13T19:21:46+08:00</lastmod>
