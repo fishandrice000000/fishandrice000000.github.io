@@ -2,6 +2,7 @@
 date: '2025-10-14T15:12:58+08:00'
 draft: false
 title: 'Git基础'
+tags: ["Git"]
 ---
 ## 基础操作
 
