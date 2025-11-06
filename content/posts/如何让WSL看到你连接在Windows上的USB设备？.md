@@ -63,6 +63,8 @@ GUID                                  DEVICE
 
 使用如下命令将对应设备的`STATE`改为`Attached` ，注意将`1-2`替换为你实际的`BUSID`
 
+这可能需要管理员权限，所以请在管理员终端下使用这个命令
+
 ```powershell
 usbipd bind --busid 1-2
 ```
@@ -71,13 +73,13 @@ usbipd bind --busid 1-2
 
 ## 4. 将USB设备挂载到你的`WSL`上
 
-首先使用如下命令获得`WSL`的版本号，记下你想挂载的`WSL`的版本号，如`Ubuntu-22.04`
+首先使用如下命令获得`WSL`的版本号，记下你想挂载的`WSL`的名字，如`Ubuntu-22.04`
 
 ```powershell
 wsl -l -v
 ```
 
-接着将之前记下来的`WSL`版本号和`BUSID`使用到如下的命令中
+接着将之前记下来的`WSL`名字和`BUSID`使用到如下的命令中
 
 ```powershell
 usbipd attach --wsl Ubuntu-22.04 --busid 1-2
