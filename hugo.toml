@@ -8,7 +8,19 @@ timeZone = "Asia/Shanghai"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$']]
+          inline = [['$', '$']]
+  [markup.highlight]
+    noClasses = false
+
 [params]
+  math = true 
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
@@ -50,4 +62,3 @@ timeZone = "Asia/Shanghai"
   name = "Tags"
   url = "/tags/"
   weight = 30
-
